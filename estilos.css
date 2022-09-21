@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background: linear-gradient(150deg, rgb(240, 38, 240),  #360388); */
+    background: linear-gradient(rgba(240, 38, 240, 0.5), #360388), url(Logotipo\ personalizado\ tipografía.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background:rgb(0, 0, 0);
+    align-items: center;
+    padding: 10px;
+}
+
+#logo-empresa{
+    display: flex;
+    text-decoration: none;
+    color: rgb(176, 11, 241);
+    align-items: center;
+}
+
+#logo{
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+    border-radius: 20em;
+}
+
+#empresa{
+     font-size:  40px;
+    font-family:fantasy;  
+    background-image: linear-gradient(to right, #5f02f5, #f003f0, #6c08f0);
+     
+    -webkit-background-clip: text;
+    background-clip: text;
+     
+    color: transparent;
+}
+
+nav .link-nav{
+    padding-right: 15px;
+    font-size: 30px;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #5f02f5, #f003f0, #6c08f0);
+     
+    -webkit-background-clip: text;
+    background-clip: text;
+     
+    color: transparent;
+    font-weight: bold;
+}
+
+nav .link-nav:hover{
+    color:rgb(88, 10, 231);
+}
