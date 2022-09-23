@@ -5,11 +5,12 @@
 }
 
 body{
-    /* background: linear-gradient(150deg, rgb(240, 38, 240),  #360388); */
-    background: linear-gradient(rgba(240, 38, 240, 0.5), #360388), url(Logotipo\ personalizado\ tipografía.png);
+     background: linear-gradient(150deg, rgb(240, 38, 240),  #360388);
+     height: 100%;
+    /* background: #510491; */
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    
 }
 
 header{
@@ -60,4 +61,212 @@ nav .link-nav{
 
 nav .link-nav:hover{
     color:rgb(88, 10, 231);
+}
+
+.conteiner{
+    width: 90%;
+    margin: 1em auto;
+    background-color: rgb(246, 244, 248);
+    gap: 15px;
+    padding: 15px;
+}
+
+.conteiner h1{
+    background-image: linear-gradient(to right, #5f02f5, #f003f0, #6c08f0);
+     
+    -webkit-background-clip: text;
+    background-clip: text;
+     
+    color: transparent;
+    font-weight: bold;
+    margin: auto;
+}
+
+.conteiner > .content .seccion{
+    display: grid;
+    grid-template-columns:  33% 33% 33%;
+    gap: 10px;
+    padding-top: 15px;
+}
+
+.conteiner .articulo1{
+    padding-top: 15px;
+    background-color: #4e06df;
+    margin: auto;
+    color: #c9c9c9;
+    text-align: center;
+    font-size: 20px;
+}
+
+.conteiner .articulo1  p{
+    text-align: justify;
+}
+
+.conteiner .articulo2{
+    padding-top: 15px;
+    background-color:#4e06df;
+    margin: auto;
+    color: #c9c9c9;
+    text-align: center;
+    font-size: 20px;
+}
+
+.conteiner .articulo2  p{
+    text-align: justify;
+}
+
+.conteiner .articulo3{
+    padding-top: 15px;
+    background-color: #4e06df;
+    margin: auto;
+    color: #c9c9c9;
+    text-align: center;
+    font-size: 20px;
+}
+
+.conteiner .articulo3  p{
+    text-align: justify;
+}
+
+ .conteiner >.content .seccion2{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+ .articulo1sec2{    
+    background-color: #4e06df;
+    padding-top: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+.articulo1sec2 p{
+    text-align: justify;
+    color: #c9c9c9;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.articulo1sec2 h2{
+    color:#f003f0;
+    margin-bottom: 10px;
+}
+
+.articulo2sec2{
+    background-color:#4e06df;
+    padding-top: 15px;
+    margin: auto;
+    text-align: center;
+}
+.articulo2sec2 p{
+    text-align: justify;
+    color: #c9c9c9;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.articulo2sec2 h2{
+    color:#f003f0;
+    margin-bottom: 10px; 
+}
+
+.articulo3sec2{
+    background-color: #4e06df;
+    padding-top: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+.articulo3sec2 p{
+    text-align: justify;
+    color: #c9c9c9;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.articulo3sec2 h2{
+    color:#f003f0;
+    margin-bottom: 10px; 
+}
+
+
+.articulo4sec2{
+    background-color: #4e06df;
+    padding-top: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+.articulo4sec2 p{
+    margin-top: 20px;
+    text-align: justify;
+    color: #c9c9c9;
+    margin-bottom: 15px;
+}
+
+.articulo4sec2 h2{
+    color:#f003f0;
+    margin-bottom: 10px; 
+}
+
+
+
+.imgsec2{
+    height: 150px;
+}
+
+.conteiner  .seccion3{
+    background-color: #4e06df;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 20px;
+}
+
+.seccion3 article h1{
+    text-align: center;
+    color: #c9c9c9;
+}
+
+.seccion3 iframe{
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.seccion3 p{
+    text-align:justify;
+    color: #c9c9c9;
+
+}
+
+.conteiner  .articulo4{
+    display: grid;
+    align-items: center;
+    margin-top: 15px;
+    padding-top: 15px;
+    background-color: #4e06df;
+    
+}
+
+.conteiner .articulo5{
+    padding-top: 15px;
+    background-color: #4e06df;
+    margin: 15px;
+    color: #c9c9c9;
+    text-align: center;
+    font-size: 20px;
+}
+
+.content .footer{
+    background-color:#000000;
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.content .footer h2{
+    color:#c9c9c9
 }
